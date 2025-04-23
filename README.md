@@ -1,3 +1,12 @@
+## Navigation
+
+The best way to understand our code is to look at the Routes.js file, which has the overview of each workflow. Then, explore src/pages folder to see each of the pages. 
+
+The workflow always start with intro page, then condition selections screen (where the experimenter tells the participant which condition they are in). After selection the condition, participant either go into the "AI" route or "No-AI" route. 
+
+Each route has instructions -> practice -> experiment pages. Both conditions end in the same demographic survey, and once they return home, the data for that participant is automatically downloaded and stored as a json file.
+
+
 ### Prerequisites
 
 First, you need to install NodeJS and NPM from the website: [https://nodejs.org/en/](https://nodejs.org/en/).
