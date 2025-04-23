@@ -1,0 +1,67 @@
+.thankyou-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    padding: 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .thankyou-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .thankyou-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .thankyou-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .thankyou-summary {
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+  
+  .thankyou-summary h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .thankyou-summary h3 {
+    margin-top: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .thankyou-summary p {
+    margin: 0.25rem 0;
+  }
+  
+  .thankyou-button {
+    background-color: #4b5563; /* Tailwind gray-700 */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .thankyou-button:hover {
+    background-color: #374151;
+  }
+  

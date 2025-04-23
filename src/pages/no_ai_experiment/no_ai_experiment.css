@@ -1,0 +1,66 @@
+.experiment-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    padding: 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .experiment-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .experiment-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .experiment-section {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .experiment-image .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #e5e7eb;
+    border: 2px dashed #9ca3af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .experiment-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .experiment-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
