@@ -27,6 +27,7 @@
   .practice-section {
     margin-bottom: 1.5rem;
     text-align: left;
+    white-space: pre-line;
   }
   
   .practice-image .image-placeholder {

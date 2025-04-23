@@ -7,10 +7,11 @@ function NoAIPracticeScreen({ onContinue }) {
   return (
     <div className="practice-container">
       <div className="practice-box">
-        <h1 className="practice-title">Practice Trial (No AI)</h1>
+        <h1 className="practice-title">Practice Trial</h1>
 
         <div className="practice-section">
           <h2>Contextual Information</h2>
+          <p>There will be contextual information here, such as age, writing experience, etc.</p>
           <p>Review the handwriting sample and make your own prediction.</p>
         </div>
 
