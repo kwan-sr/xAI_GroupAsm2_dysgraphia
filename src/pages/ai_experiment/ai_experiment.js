@@ -29,21 +29,21 @@ function AIExperimentScreen({ aiPrediction, onContinue }) {
 
   const aiPredictions = [
     "Low risk of dysgraphia",
+    "High risk of dysgraphia",
+    "Low risk of dysgraphia",
+    "High risk of dysgraphia",
     "Low risk of dysgraphia",
     "Low risk of dysgraphia",
     "Low risk of dysgraphia",
+    "High risk of dysgraphia",
+    "High risk of dysgraphia",
+    "Low risk of dysgraphia",
+    "High risk of dysgraphia",
+    "High risk of dysgraphia",
     "Low risk of dysgraphia",
     "Low risk of dysgraphia",
     "High risk of dysgraphia",
     "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia",
-    "High risk of dysgraphia"
   ];
 
   const totalTrials = 16;
